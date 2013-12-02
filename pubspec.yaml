@@ -1,6 +1,8 @@
 name: redis_cli
 version: 0.1.1
-author: Daniele Zambuto
+author: Daniele Zambuto <daniele.zambuto@gmail.com>
 description: A tiny redis client dor dart lang.
+homepage: https://github.com/dzambuto/redis_cli
+documentation: https://github.com/dzambuto/redis_cli
 dev_dependencies:
   unittest: any

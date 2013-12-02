@@ -1,6 +1,6 @@
 import 'bench.dart';
 import 'dart:async';
-import '../lib/redis.dart';
+import '../lib/redis_cli.dart';
 
 class RedisTest extends Test {
   final List<RedisClient> _clients = new List();

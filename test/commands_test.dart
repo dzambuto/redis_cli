@@ -3,7 +3,7 @@ import 'package:unittest/vm_config.dart';
 import 'dart:async';
 import 'dart:math';
 import 'dart:core';
-import '../lib/redis.dart';
+import '../lib/redis_cli.dart';
 
 void main() {
   RedisClient client;

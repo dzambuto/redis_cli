@@ -2,7 +2,7 @@ import 'package:unittest/unittest.dart';
 import 'package:unittest/vm_config.dart';
 import 'dart:convert';
 
-import '../lib/redis.dart';
+import '../lib/redis_cli.dart';
 
 class MockController {
   void add(res) {
