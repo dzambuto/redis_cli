@@ -157,7 +157,7 @@ void main() {
     .then((elapsed) => (new RedisGetTest('GET small str', 'foo_rand000000000000', n, 50)).report())
     .then((elapsed) => (new RedisGetTest('GET small str', 'foo_rand000000000000', n, 200)).report())
     .then((elapsed) => (new RedisGetTest('GET small str', 'foo_rand000000000000', n, 20000)).report())
-    //.then((elapsed) => (new RedisSetTest('SET large str', 'foo_rand000000000000', bigValue, n, 1)).report())
+    .then((elapsed) => (new RedisSetTest('SET large str', 'foo_rand000000000000', bigValue, n, 1)).report())
     .then((elapsed) => (new RedisSetTest('SET large str', 'foo_rand000000000000', bigValue, n, 50)).report())
     .then((elapsed) => (new RedisSetTest('SET large str', 'foo_rand000000000000', bigValue, n, 200)).report())
     .then((elapsed) => (new RedisSetTest('SET large str', 'foo_rand000000000000', bigValue, n, 20000)).report())
